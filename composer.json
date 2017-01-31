@@ -1,0 +1,19 @@
+{
+  "name": "terminus-plugin-project/terminus-mustafa-plugin",
+  "description": "Mustafa - A Terminus plugin for setting up CDNs with Pantheon",
+  "homepage": "https://github.com/terminus-plugin-project/terminus-mustafa-plugin",
+  "license": "MIT",
+  "type": "terminus-plugin",
+  "require": {
+    "php": ">=5.4",
+    "aws/aws-sdk-php": "^3.21"
+  },
+  "autoload": {
+    "psr-4": { "Pantheon\\TerminusMustafa\\": "src" }
+  },
+  "extra": {
+    "terminus": {
+      "compatible-version": "^1"
+    }
+  }
+}
